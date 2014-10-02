@@ -1,0 +1,86 @@
+#page-margins{
+	width: 820px;
+	margin: 40px auto 60px;
+}
+#name{
+	font-family: Verdana;
+}
+#about{
+	width: 500px;
+	float: left;
+}
+body{
+	margin-left: 120px;
+	margin-right: auto;
+	margin-bottom: 120px;
+	background-color: #F2F2F2;
+}
+h1{
+	margin: 0 0 16px 0;
+	padding: 0 0 6px 0;
+	font-weight: bold;
+	font-size: 30px;
+	border-bottom: 2px solid silver
+}
+p{
+	margin: 0 0 16px 0;
+}
+a{
+	color: silver;
+	border-bottom: 1px dotted silver;
+}
+#top{
+	color: #999999;
+}
+#title{
+	font-family: sans-serif;
+	font-weight: bold;
+	font-size: 18px;
+}
+ul{
+	padding-left: 20px;
+}
+#job{
+	float: right;
+	color: silver;
+	font-style: italic;
+}
+a:hover{
+	color: blue;
+}
+.clear{
+	clear: both;
+}
+dt{
+	font-style: italic;
+	font-weight: bold;
+	font-size: 18px;
+	text-align: right;
+	padding: 0 40px 0 0;
+	width: 125px;
+	float: left;
+	height: 100px;
+	border-right: 2px solid silver;
+}
+dd{
+	width: 500px;
+	float: left;
+}
+dd.clear{
+	float: none;
+	margin: 0;
+	height: 15px;	
+}
+img{
+	position: absolute;
+	float: right;
+	border: 5px solid white;
+	margin: -20px 0 0 500px;
+	width: 140px;
+	height: 200px;
+	box-shadow: rgba(0,0,0,0.1) 3px 0px;
+	transform: rotate(-3deg);
+}
+h3{
+	text-align: left;
+}
